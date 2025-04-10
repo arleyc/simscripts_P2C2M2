@@ -1,0 +1,1525 @@
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="500000000" storeEvery="50000">
+        <state id="state" spec="State" storeEvery="50000">
+            <stateNode id="Tree.t:Species" spec="starbeast2.SpeciesTree">
+                <taxonset id="taxonsuperset" spec="starbeast2.StarBeastTaxonSet">
+                    <taxon id="Lmulticolor" spec="TaxonSet">
+                        <taxon id="Lmulticolor_2" spec="Taxon"/>
+                        <taxon id="Lmulticolor_1" spec="Taxon"/>
+                        <taxon id="Lmulticolor_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lornatus" spec="TaxonSet">
+                        <taxon id="Lornatus_3" spec="Taxon"/>
+                        <taxon id="Lornatus_1" spec="Taxon"/>
+                        <taxon id="Lornatus_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lmultimaculatus" spec="TaxonSet">
+                        <taxon id="Lmultimaculatus_3" spec="Taxon"/>
+                        <taxon id="Lmultimaculatus_1" spec="Taxon"/>
+                        <taxon id="Lmultimaculatus_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Llentus" spec="TaxonSet">
+                        <taxon id="Llentus_1" spec="Taxon"/>
+                        <taxon id="Llentus_3" spec="Taxon"/>
+                        <taxon id="Llentus_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lmagellanicus" spec="TaxonSet">
+                        <taxon id="Lmagellanicus_1" spec="Taxon"/>
+                        <taxon id="Lmagellanicus_2" spec="Taxon"/>
+                        <taxon id="Lmagellanicus_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lfamatinae" spec="TaxonSet">
+                        <taxon id="Lfamatinae_1" spec="Taxon"/>
+                        <taxon id="Lfamatinae_2" spec="Taxon"/>
+                        <taxon id="Lfamatinae_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lanomalus" spec="TaxonSet">
+                        <taxon id="Lanomalus_2" spec="Taxon"/>
+                        <taxon id="Lanomalus_1" spec="Taxon"/>
+                        <taxon id="Lanomalus_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lpseudoanomalus" spec="TaxonSet">
+                        <taxon id="Lpseudoanomalus_1" spec="Taxon"/>
+                        <taxon id="Lpseudoanomalus_2" spec="Taxon"/>
+                        <taxon id="Lpseudoanomalus_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lruibali" spec="TaxonSet">
+                        <taxon id="Lruibali_3" spec="Taxon"/>
+                        <taxon id="Lruibali_2" spec="Taxon"/>
+                        <taxon id="Lruibali_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lscapularis" spec="TaxonSet">
+                        <taxon id="Lscapularis_3" spec="Taxon"/>
+                        <taxon id="Lscapularis_2" spec="Taxon"/>
+                        <taxon id="Lscapularis_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lsalinicola" spec="TaxonSet">
+                        <taxon id="Lsalinicola_2" spec="Taxon"/>
+                        <taxon id="Lsalinicola_3" spec="Taxon"/>
+                        <taxon id="Lsalinicola_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lriojanus" spec="TaxonSet">
+                        <taxon id="Lriojanus_3" spec="Taxon"/>
+                        <taxon id="Lriojanus_2" spec="Taxon"/>
+                        <taxon id="Lriojanus_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Ldonosobarrosi" spec="TaxonSet">
+                        <taxon id="Ldonosobarrosi_3" spec="Taxon"/>
+                        <taxon id="Ldonosobarrosi_2" spec="Taxon"/>
+                        <taxon id="Ldonosobarrosi_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Ldorbignyi" spec="TaxonSet">
+                        <taxon id="Ldorbignyi_3" spec="Taxon"/>
+                        <taxon id="Ldorbignyi_2" spec="Taxon"/>
+                        <taxon id="Ldorbignyi_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lacostai" spec="TaxonSet">
+                        <taxon id="Lacostai_2" spec="Taxon"/>
+                        <taxon id="Lacostai_1" spec="Taxon"/>
+                        <taxon id="Lacostai_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lazarae" spec="TaxonSet">
+                        <taxon id="Lazarae_2" spec="Taxon"/>
+                        <taxon id="Lazarae_1" spec="Taxon"/>
+                        <taxon id="Lazarae_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lhermannunezi" spec="TaxonSet">
+                        <taxon id="Lhermannunezi_3" spec="Taxon"/>
+                        <taxon id="Lhermannunezi_1" spec="Taxon"/>
+                        <taxon id="Lhermannunezi_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lpetrophilus" spec="TaxonSet">
+                        <taxon id="Lpetrophilus_1" spec="Taxon"/>
+                        <taxon id="Lpetrophilus_3" spec="Taxon"/>
+                        <taxon id="Lpetrophilus_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lrothi" spec="TaxonSet">
+                        <taxon id="Lrothi_3" spec="Taxon"/>
+                        <taxon id="Lrothi_2" spec="Taxon"/>
+                        <taxon id="Lrothi_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lcuyanus" spec="TaxonSet">
+                        <taxon id="Lcuyanus_3" spec="Taxon"/>
+                        <taxon id="Lcuyanus_2" spec="Taxon"/>
+                        <taxon id="Lcuyanus_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Linacayali" spec="TaxonSet">
+                        <taxon id="Linacayali_3" spec="Taxon"/>
+                        <taxon id="Linacayali_2" spec="Taxon"/>
+                        <taxon id="Linacayali_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lwiegmannii" spec="TaxonSet">
+                        <taxon id="Lwiegmannii_Tucu_3" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Tucu_1" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Tucu_2" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Ca_1" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Ca_3" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Ca_2" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_3" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_1" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_2" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Juj_2" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Juj_1" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Uy_2" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Uy_3" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Juj_3" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Uy_1" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Sal_1" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Sal_3" spec="Taxon"/>
+                        <taxon id="Lwiegmannii_Sal_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lmartorii" spec="TaxonSet">
+                        <taxon id="Lmartorii_1" spec="Taxon"/>
+                        <taxon id="Lmartorii_2" spec="Taxon"/>
+                        <taxon id="Lmartorii_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lzullyae" spec="TaxonSet">
+                        <taxon id="Lzullyae_3" spec="Taxon"/>
+                        <taxon id="Lzullyae_2" spec="Taxon"/>
+                        <taxon id="Lzullyae_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lfitzingerii" spec="TaxonSet">
+                        <taxon id="Lfitzingerii_1" spec="Taxon"/>
+                        <taxon id="Lfitzingerii_2" spec="Taxon"/>
+                        <taxon id="Lfitzingerii_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Leleodori" spec="TaxonSet">
+                        <taxon id="Leleodori_2" spec="Taxon"/>
+                        <taxon id="Leleodori_3" spec="Taxon"/>
+                        <taxon id="Leleodori_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Llutzae" spec="TaxonSet">
+                        <taxon id="Llutzae_3" spec="Taxon"/>
+                        <taxon id="Llutzae_2" spec="Taxon"/>
+                        <taxon id="Llutzae_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Landinus" spec="TaxonSet">
+                        <taxon id="Landinus_2" spec="Taxon"/>
+                        <taxon id="Landinus_1" spec="Taxon"/>
+                        <taxon id="Landinus_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Larambarensis" spec="TaxonSet">
+                        <taxon id="Larambarensis_3" spec="Taxon"/>
+                        <taxon id="Larambarensis_2" spec="Taxon"/>
+                        <taxon id="Larambarensis_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lcuyumhue" spec="TaxonSet">
+                        <taxon id="Lcuyumhue_2" spec="Taxon"/>
+                        <taxon id="Lcuyumhue_3" spec="Taxon"/>
+                        <taxon id="Lcuyumhue_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lrabinoi" spec="TaxonSet">
+                        <taxon id="Lrabinoi_3" spec="Taxon"/>
+                        <taxon id="Lrabinoi_1" spec="Taxon"/>
+                        <taxon id="Lrabinoi_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Loccipitalis" spec="TaxonSet">
+                        <taxon id="Loccipitalis_3" spec="Taxon"/>
+                        <taxon id="Loccipitalis_2" spec="Taxon"/>
+                        <taxon id="Loccipitalis_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lgardeli" spec="TaxonSet">
+                        <taxon id="Lgardeli_2" spec="Taxon"/>
+                        <taxon id="Lgardeli_1" spec="Taxon"/>
+                        <taxon id="Lgardeli_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Llavillai" spec="TaxonSet">
+                        <taxon id="Llavillai_3" spec="Taxon"/>
+                        <taxon id="Llavillai_1" spec="Taxon"/>
+                        <taxon id="Llavillai_2" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Luspallatensis" spec="TaxonSet">
+                        <taxon id="Luspallatensis_3" spec="Taxon"/>
+                        <taxon id="Luspallatensis_2" spec="Taxon"/>
+                        <taxon id="Luspallatensis_1" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lvallecurensis" spec="TaxonSet">
+                        <taxon id="Lvallecurensis_2" spec="Taxon"/>
+                        <taxon id="Lvallecurensis_1" spec="Taxon"/>
+                        <taxon id="Lvallecurensis_3" spec="Taxon"/>
+                    </taxon>
+                    <taxon id="Lcanqueli" spec="TaxonSet">
+                        <taxon id="Lcanqueli_1" spec="Taxon"/>
+                        <taxon id="Lcanqueli_2" spec="Taxon"/>
+                        <taxon id="Lcanqueli_3" spec="Taxon"/>
+                    </taxon>
+                </taxonset>
+            </stateNode>
+            <parameter id="speciationRate.t:Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <tree id="Tree.t:SNCAIP" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.SNCAIP" spec="TaxonSet">
+                    <alignment idref="SNCAIP"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:PNN" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.PNN" spec="TaxonSet">
+                    <alignment idref="PNN"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:A4B" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.A4B" spec="TaxonSet">
+                    <alignment idref="A4B"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:CMOS" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.CMOS" spec="TaxonSet">
+                    <alignment idref="CMOS"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:DMXL" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.DMXL" spec="TaxonSet">
+                    <alignment idref="DMXL"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:EXPH5" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.EXPH5" spec="TaxonSet">
+                    <alignment idref="EXPH5"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:PRLR" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.PRLR" spec="TaxonSet">
+                    <alignment idref="PRLR"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:mtDNA" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.mtDNA" spec="TaxonSet">
+                    <alignment idref="mtDNA"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:MXRA5" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.MXRA5" spec="TaxonSet">
+                    <alignment idref="MXRA5"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:A9C" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.A9C" spec="TaxonSet">
+                    <alignment idref="A9C"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:A1D" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.A1D" spec="TaxonSet">
+                    <alignment idref="A1D"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:KIF24" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.KIF24" spec="TaxonSet">
+                    <alignment idref="KIF24"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:A12D" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.A12D" spec="TaxonSet">
+                    <alignment idref="A12D"/>
+                </taxonset>
+            </tree>
+            <tree id="Tree.t:DNAH3" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.DNAH3" spec="TaxonSet">
+                    <alignment idref="DNAH3"/>
+                </taxonset>
+            </tree>
+            <parameter id="tipPopSizes.Species" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="10.0">1.0</parameter>
+            <parameter id="topPopSizes.Species" spec="parameter.RealParameter" dimension="0" lower="0.0" name="stateNode" upper="1.0">1.0</parameter>
+            <parameter id="lwcrPopScale.Species" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <stateNode id="BMT_ModelIndicator.s:SNCAIP" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:SNCAIP" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:SNCAIP" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:SNCAIP" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:SNCAIP" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:SNCAIP" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:SNCAIP" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:PNN" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:PNN" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:PNN" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:PNN" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:PNN" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:PNN" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:PNN" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:MXRA5" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:MXRA5" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:MXRA5" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:MXRA5" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:MXRA5" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:MXRA5" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:MXRA5" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:EXPH5" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:EXPH5" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:EXPH5" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:EXPH5" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:EXPH5" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:EXPH5" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:EXPH5" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:DMXL" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:DMXL" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:DMXL" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:DMXL" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:DMXL" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:DMXL" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:DMXL" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:CMOS" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:CMOS" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:CMOS" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:CMOS" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:CMOS" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:CMOS" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:CMOS" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:A12D" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:A12D" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:A12D" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:A12D" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:A12D" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:A12D" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:A12D" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:A9C" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:A9C" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:A9C" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:A9C" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:A9C" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:A9C" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:A9C" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:A4B" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:A4B" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:A4B" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:A4B" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:A4B" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:A4B" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:A4B" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:PRLR" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:PRLR" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:PRLR" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:PRLR" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:PRLR" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:PRLR" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:PRLR" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:mtDNA" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:mtDNA" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:mtDNA" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:mtDNA" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:mtDNA" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:mtDNA" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:mtDNA" spec="parameter.BooleanParameter">false</stateNode>
+            <parameter id="BMT_frequencies.s:mtDNA" spec="parameter.RealParameter" dimension="4" name="stateNode">0.25 0.25 0.25 0.25</parameter>
+            <stateNode id="BMT_ModelIndicator.s:KIF24" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:KIF24" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:KIF24" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:KIF24" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:KIF24" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:KIF24" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:KIF24" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:DNAH3" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:DNAH3" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:DNAH3" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:DNAH3" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:DNAH3" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:DNAH3" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:DNAH3" spec="parameter.BooleanParameter">false</stateNode>
+            <stateNode id="BMT_ModelIndicator.s:A1D" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+            <parameter id="BMT_Rates.s:A1D" spec="parameter.RealParameter" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+            <parameter id="BMT_gammaShape.s:A1D" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="BMT_ProportionInvariable.s:A1D" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+            <stateNode id="hasInvariableSites.s:A1D" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasGammaRates.s:A1D" spec="parameter.IntegerParameter">1</stateNode>
+            <stateNode id="hasEqualFreqs.s:A1D" spec="parameter.BooleanParameter">false</stateNode>
+            <parameter id="strictClockRate.c:SNCAIP" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="strictClockRate.c:PNN" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="strictClockRate.c:MXRA5" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="strictClockRate.c:EXPH5" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="strictClockRate.c:DMXL" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="strictClockRate.c:CMOS" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <stateNode id="uclnBranchRates.c:A12D" spec="parameter.IntegerParameter" dimension="82">1</stateNode>
+            <parameter id="uclnClockRate.c:A12D" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="uclnBranchRatesStdev.c:A12D" spec="parameter.RealParameter" lower="0.01" name="stateNode">0.3</parameter>
+            <parameter id="strictClockRate.c:A9C" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="strictClockRate.c:A4B" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="strictClockRate.c:PRLR" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <stateNode id="uclnBranchRates.c:mtDNA" spec="parameter.IntegerParameter" dimension="250">1</stateNode>
+            <parameter id="uclnBranchRatesStdev.c:mtDNA" spec="parameter.RealParameter" lower="0.01" name="stateNode">0.3</parameter>
+            <parameter id="uclnClockRate.c:mtDNA" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <stateNode id="uclnBranchRates.c:KIF24" spec="parameter.IntegerParameter" dimension="166">1</stateNode>
+            <parameter id="uclnBranchRatesStdev.c:KIF24" spec="parameter.RealParameter" lower="0.01" name="stateNode">0.3</parameter>
+            <parameter id="uclnClockRate.c:KIF24" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rlcBranchRates.c:DNAH3" spec="parameter.RealParameter" dimension="166" name="stateNode">1.0</parameter>
+            <parameter id="rlcClockRate.c:DNAH3" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="rlcBranchRates.c:A1D" spec="parameter.RealParameter" dimension="82" name="stateNode">1.0</parameter>
+            <parameter id="rlcClockRate.c:A1D" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        </state>
+        <init id="SBI" spec="starbeast2.StarBeastInitializer" birthRate="@speciationRate.t:Species" estimate="false" speciesTree="@Tree.t:Species">
+            <geneTree idref="Tree.t:SNCAIP"/>
+            <geneTree idref="Tree.t:PNN"/>
+            <geneTree idref="Tree.t:A4B"/>
+            <geneTree idref="Tree.t:CMOS"/>
+            <geneTree idref="Tree.t:DMXL"/>
+            <geneTree idref="Tree.t:EXPH5"/>
+            <geneTree idref="Tree.t:PRLR"/>
+            <geneTree idref="Tree.t:mtDNA"/>
+            <geneTree idref="Tree.t:MXRA5"/>
+            <geneTree idref="Tree.t:A9C"/>
+            <geneTree idref="Tree.t:A1D"/>
+            <geneTree idref="Tree.t:KIF24"/>
+            <geneTree idref="Tree.t:A12D"/>
+            <geneTree idref="Tree.t:DNAH3"/>
+            <populationModel id="popModelBridge.Species" spec="starbeast2.PassthroughModel">
+                <childModel id="lwcrPopModel.Species" spec="starbeast2.LinearWithConstantRoot" speciesTree="@Tree.t:Species" tipPopulationSizes="@tipPopSizes.Species" topPopulationSizes="@topPopSizes.Species"/>
+            </populationModel>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="speciescoalescent" spec="starbeast2.MultispeciesCoalescent">
+                <distribution id="geneTree.t:A12D" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:A12D"/>
+                <distribution id="geneTree.t:A1D" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:A1D"/>
+                <distribution id="geneTree.t:A4B" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:A4B"/>
+                <distribution id="geneTree.t:A9C" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:A9C"/>
+                <distribution id="geneTree.t:CMOS" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:CMOS"/>
+                <distribution id="geneTree.t:DMXL" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:DMXL"/>
+                <distribution id="geneTree.t:DNAH3" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:DNAH3"/>
+                <distribution id="geneTree.t:EXPH5" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:EXPH5"/>
+                <distribution id="geneTree.t:KIF24" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:KIF24"/>
+                <distribution id="geneTree.t:MXRA5" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:MXRA5"/>
+                <distribution id="geneTree.t:PNN" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:PNN"/>
+                <distribution id="geneTree.t:PRLR" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:PRLR"/>
+                <distribution id="geneTree.t:SNCAIP" spec="starbeast2.GeneTree" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:SNCAIP"/>
+                <distribution id="geneTree.t:mtDNA" spec="starbeast2.GeneTree" ploidy="0.5" populationModel="@popModelBridge.Species" speciesTree="@Tree.t:Species" tree="@Tree.t:mtDNA"/>
+            </distribution>
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="YuleModel.t:Species" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@speciationRate.t:Species" tree="@Tree.t:Species"/>
+                <distribution id="BMT_PropInvariablePrior.s:A12D" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:A12D" x="@BMT_ProportionInvariable.s:A12D">
+                    <Beta id="Beta.6" name="distr">
+                        <alpha id="Function$Constant.46" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.47" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:A1D" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:A1D" x="@BMT_ProportionInvariable.s:A1D">
+                    <Beta id="Beta.13" name="distr">
+                        <alpha id="Function$Constant.67" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.68" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:A4B" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:A4B" x="@BMT_ProportionInvariable.s:A4B">
+                    <Beta id="Beta.8" name="distr">
+                        <alpha id="Function$Constant.52" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.53" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:A9C" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:A9C" x="@BMT_ProportionInvariable.s:A9C">
+                    <Beta id="Beta.7" name="distr">
+                        <alpha id="Function$Constant.49" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.50" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:CMOS" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:CMOS" x="@BMT_ProportionInvariable.s:CMOS">
+                    <Beta id="Beta.5" name="distr">
+                        <alpha id="Function$Constant.43" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.44" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:DMXL" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:DMXL" x="@BMT_ProportionInvariable.s:DMXL">
+                    <Beta id="Beta.4" name="distr">
+                        <alpha id="Function$Constant.40" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.41" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:DNAH3" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:DNAH3" x="@BMT_ProportionInvariable.s:DNAH3">
+                    <Beta id="Beta.12" name="distr">
+                        <alpha id="Function$Constant.64" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.65" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:EXPH5" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:EXPH5" x="@BMT_ProportionInvariable.s:EXPH5">
+                    <Beta id="Beta.3" name="distr">
+                        <alpha id="Function$Constant.37" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.38" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:KIF24" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:KIF24" x="@BMT_ProportionInvariable.s:KIF24">
+                    <Beta id="Beta.11" name="distr">
+                        <alpha id="Function$Constant.61" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.62" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:MXRA5" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:MXRA5" x="@BMT_ProportionInvariable.s:MXRA5">
+                    <Beta id="Beta.2" name="distr">
+                        <alpha id="Function$Constant.34" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.35" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:PNN" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:PNN" x="@BMT_ProportionInvariable.s:PNN">
+                    <Beta id="Beta.1" name="distr">
+                        <alpha id="Function$Constant.31" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.32" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:PRLR" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:PRLR" x="@BMT_ProportionInvariable.s:PRLR">
+                    <Beta id="Beta.9" name="distr">
+                        <alpha id="Function$Constant.55" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.56" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:SNCAIP" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:SNCAIP" x="@BMT_ProportionInvariable.s:SNCAIP">
+                    <Beta id="Beta.0" name="distr">
+                        <alpha id="Function$Constant.28" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.29" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_PropInvariablePrior.s:mtDNA" spec="bmodeltest.math.distributions.BMTPrior" count="@hasInvariableSites.s:mtDNA" x="@BMT_ProportionInvariable.s:mtDNA">
+                    <Beta id="Beta.10" name="distr">
+                        <alpha id="Function$Constant.58" spec="Function$Constant" value="1.0"/>
+                        <beta id="Function$Constant.59" spec="Function$Constant" value="4.0"/>
+                    </Beta>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:A12D" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:A12D" x="@BMT_Rates.s:A12D">
+                    <substModel id="RevJump.s:A12D" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:A12D" rates="@BMT_Rates.s:A12D">
+                        <frequencies id="BMTfreqs.s:A12D" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@A12D" hasEqualFreqs="@hasEqualFreqs.s:A12D"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:A12Dx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:A1D" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:A1D" x="@BMT_Rates.s:A1D">
+                    <substModel id="RevJump.s:A1D" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:A1D" rates="@BMT_Rates.s:A1D">
+                        <frequencies id="BMTfreqs.s:A1D" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@A1D" hasEqualFreqs="@hasEqualFreqs.s:A1D"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:A1Dx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:A4B" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:A4B" x="@BMT_Rates.s:A4B">
+                    <substModel id="RevJump.s:A4B" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:A4B" rates="@BMT_Rates.s:A4B">
+                        <frequencies id="BMTfreqs.s:A4B" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@A4B" hasEqualFreqs="@hasEqualFreqs.s:A4B"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:A4Bx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:A9C" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:A9C" x="@BMT_Rates.s:A9C">
+                    <substModel id="RevJump.s:A9C" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:A9C" rates="@BMT_Rates.s:A9C">
+                        <frequencies id="BMTfreqs.s:A9C" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@A9C" hasEqualFreqs="@hasEqualFreqs.s:A9C"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:A9Cx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:CMOS" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:CMOS" x="@BMT_Rates.s:CMOS">
+                    <substModel id="RevJump.s:CMOS" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:CMOS" rates="@BMT_Rates.s:CMOS">
+                        <frequencies id="BMTfreqs.s:CMOS" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@CMOS" hasEqualFreqs="@hasEqualFreqs.s:CMOS"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:CMOSx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:DMXL" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:DMXL" x="@BMT_Rates.s:DMXL">
+                    <substModel id="RevJump.s:DMXL" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:DMXL" rates="@BMT_Rates.s:DMXL">
+                        <frequencies id="BMTfreqs.s:DMXL" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@DMXL" hasEqualFreqs="@hasEqualFreqs.s:DMXL"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:DMXLx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:DNAH3" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:DNAH3" x="@BMT_Rates.s:DNAH3">
+                    <substModel id="RevJump.s:DNAH3" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:DNAH3" rates="@BMT_Rates.s:DNAH3">
+                        <frequencies id="BMTfreqs.s:DNAH3" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@DNAH3" hasEqualFreqs="@hasEqualFreqs.s:DNAH3"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:DNAH3x" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:EXPH5" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:EXPH5" x="@BMT_Rates.s:EXPH5">
+                    <substModel id="RevJump.s:EXPH5" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:EXPH5" rates="@BMT_Rates.s:EXPH5">
+                        <frequencies id="BMTfreqs.s:EXPH5" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@EXPH5" hasEqualFreqs="@hasEqualFreqs.s:EXPH5"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:EXPH5x" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:KIF24" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:KIF24" x="@BMT_Rates.s:KIF24">
+                    <substModel id="RevJump.s:KIF24" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:KIF24" rates="@BMT_Rates.s:KIF24">
+                        <frequencies id="BMTfreqs.s:KIF24" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@KIF24" hasEqualFreqs="@hasEqualFreqs.s:KIF24"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:KIF24x" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:MXRA5" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:MXRA5" x="@BMT_Rates.s:MXRA5">
+                    <substModel id="RevJump.s:MXRA5" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:MXRA5" rates="@BMT_Rates.s:MXRA5">
+                        <frequencies id="BMTfreqs.s:MXRA5" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@MXRA5" hasEqualFreqs="@hasEqualFreqs.s:MXRA5"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:MXRA5x" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:PNN" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:PNN" x="@BMT_Rates.s:PNN">
+                    <substModel id="RevJump.s:PNN" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:PNN" rates="@BMT_Rates.s:PNN">
+                        <frequencies id="BMTfreqs.s:PNN" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@PNN" hasEqualFreqs="@hasEqualFreqs.s:PNN"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:PNNx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:PRLR" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:PRLR" x="@BMT_Rates.s:PRLR">
+                    <substModel id="RevJump.s:PRLR" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:PRLR" rates="@BMT_Rates.s:PRLR">
+                        <frequencies id="BMTfreqs.s:PRLR" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@PRLR" hasEqualFreqs="@hasEqualFreqs.s:PRLR"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:PRLRx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:SNCAIP" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:SNCAIP" x="@BMT_Rates.s:SNCAIP">
+                    <substModel id="RevJump.s:SNCAIP" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:SNCAIP" rates="@BMT_Rates.s:SNCAIP">
+                        <frequencies id="BMTfreqs.s:SNCAIP" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" data="@SNCAIP" hasEqualFreqs="@hasEqualFreqs.s:SNCAIP"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:SNCAIPx" name="distr"/>
+                </distribution>
+                <distribution id="BMT_RatesPrior.s:mtDNA" spec="bmodeltest.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:mtDNA" x="@BMT_Rates.s:mtDNA">
+                    <substModel id="RevJump.s:mtDNA" spec="bmodeltest.evolution.substitutionmodel.NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:mtDNA" rates="@BMT_Rates.s:mtDNA">
+                        <frequencies id="BMTfreqs.s:mtDNA" spec="bmodeltest.evolution.substitutionmodel.ModelFrequencies" empirical="false" frequencies="@BMT_frequencies.s:mtDNA" hasEqualFreqs="@hasEqualFreqs.s:mtDNA"/>
+                    </substModel>
+                    <Exponential id="BMT_RatesPrior.s:mtDNAx" name="distr"/>
+                </distribution>
+                <prior id="BMT_freqsPrior.s:mtDNA" name="distribution" x="@BMT_frequencies.s:mtDNA">
+                    <distr id="Dirichlet.10" spec="distribution.Dirichlet">
+                        <alpha id="Function$Constant.60" spec="Function$Constant" value="1.0 1.0 1.0 1.0"/>
+                    </distr>
+                </prior>
+                <distribution id="BMT_GammaShapePrior.s:A12D" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:A12D" x="@BMT_gammaShape.s:A12D">
+                    <Exponential id="Exponential.6" name="distr">
+                        <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:A1D" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:A1D" x="@BMT_gammaShape.s:A1D">
+                    <Exponential id="Exponential.13" name="distr">
+                        <parameter id="RealParameter.13" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:A4B" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:A4B" x="@BMT_gammaShape.s:A4B">
+                    <Exponential id="Exponential.8" name="distr">
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:A9C" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:A9C" x="@BMT_gammaShape.s:A9C">
+                    <Exponential id="Exponential.7" name="distr">
+                        <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:CMOS" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:CMOS" x="@BMT_gammaShape.s:CMOS">
+                    <Exponential id="Exponential.5" name="distr">
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:DMXL" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:DMXL" x="@BMT_gammaShape.s:DMXL">
+                    <Exponential id="Exponential.4" name="distr">
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:DNAH3" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:DNAH3" x="@BMT_gammaShape.s:DNAH3">
+                    <Exponential id="Exponential.12" name="distr">
+                        <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:EXPH5" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:EXPH5" x="@BMT_gammaShape.s:EXPH5">
+                    <Exponential id="Exponential.3" name="distr">
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:KIF24" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:KIF24" x="@BMT_gammaShape.s:KIF24">
+                    <Exponential id="Exponential.11" name="distr">
+                        <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:MXRA5" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:MXRA5" x="@BMT_gammaShape.s:MXRA5">
+                    <Exponential id="Exponential.2" name="distr">
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:PNN" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:PNN" x="@BMT_gammaShape.s:PNN">
+                    <Exponential id="Exponential.1" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:PRLR" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:PRLR" x="@BMT_gammaShape.s:PRLR">
+                    <Exponential id="Exponential.9" name="distr">
+                        <parameter id="RealParameter.9" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:SNCAIP" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:SNCAIP" x="@BMT_gammaShape.s:SNCAIP">
+                    <Exponential id="Exponential.0" name="distr">
+                        <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <distribution id="BMT_GammaShapePrior.s:mtDNA" spec="bmodeltest.math.distributions.BMTPrior" count="@hasGammaRates.s:mtDNA" x="@BMT_gammaShape.s:mtDNA">
+                    <Exponential id="Exponential.10" name="distr">
+                        <parameter id="RealParameter.10" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    </Exponential>
+                </distribution>
+                <prior id="lwcrPopScalePrior.Species" name="distribution" x="@lwcrPopScale.Species">
+                    <OneOnX id="OneOnX.15" name="distr"/>
+                </prior>
+                <prior id="branchRatePrior.c:A1D" name="distribution" x="@rlcBranchRates.c:A1D">
+                    <Gamma id="Gamma.3" name="distr">
+                        <parameter id="branchRatePriorAlpha.A1D" spec="parameter.RealParameter" estimate="false" lower="0.0" name="alpha">0.5</parameter>
+                        <parameter id="branchRatePriorBeta.A1D" spec="parameter.RealParameter" estimate="false" lower="0.0" name="beta">2.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="branchRatePrior.c:DNAH3" name="distribution" x="@rlcBranchRates.c:DNAH3">
+                    <Gamma id="Gamma.2" name="distr">
+                        <parameter id="branchRatePriorAlpha.DNAH3" spec="parameter.RealParameter" estimate="false" lower="0.0" name="alpha">0.5</parameter>
+                        <parameter id="branchRatePriorBeta.DNAH3" spec="parameter.RealParameter" estimate="false" lower="0.0" name="beta">2.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="rlcClockRatePrior.c:A1D" name="distribution" x="@rlcClockRate.c:A1D">
+                    <LogNormal id="LogNormalDistributionModel.32" meanInRealSpace="true" name="distr">
+                        <parameter id="rlcClockRatePriorMean.s:A1D" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="rlcClockRatePriorStdev.s:A1D" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="rlcClockRatePrior.c:DNAH3" name="distribution" x="@rlcClockRate.c:DNAH3">
+                    <LogNormal id="LogNormalDistributionModel.31" meanInRealSpace="true" name="distr">
+                        <parameter id="rlcClockRatePriorMean.s:DNAH3" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="rlcClockRatePriorStdev.s:DNAH3" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="speciationRatePrior.t:Species" name="distribution" x="@speciationRate.t:Species">
+                    <OneOnX id="OneOnX.30" name="distr"/>
+                </prior>
+                <prior id="clockRatePrior.c:A4B" name="distribution" x="@strictClockRate.c:A4B">
+                    <LogNormal id="LogNormalDistributionModel.22" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:A4B" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:A4B" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:A9C" name="distribution" x="@strictClockRate.c:A9C">
+                    <LogNormal id="LogNormalDistributionModel.21" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:A9C" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:A9C" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:CMOS" name="distribution" x="@strictClockRate.c:CMOS">
+                    <LogNormal id="LogNormalDistributionModel.19" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:CMOS" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:CMOS" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:DMXL" name="distribution" x="@strictClockRate.c:DMXL">
+                    <LogNormal id="LogNormalDistributionModel.18" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:DMXL" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:DMXL" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:EXPH5" name="distribution" x="@strictClockRate.c:EXPH5">
+                    <LogNormal id="LogNormalDistributionModel.17" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:EXPH5" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:EXPH5" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:MXRA5" name="distribution" x="@strictClockRate.c:MXRA5">
+                    <LogNormal id="LogNormalDistributionModel.16" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:MXRA5" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:MXRA5" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:PNN" name="distribution" x="@strictClockRate.c:PNN">
+                    <LogNormal id="LogNormalDistributionModel.15" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:PNN" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:PNN" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:PRLR" name="distribution" x="@strictClockRate.c:PRLR">
+                    <LogNormal id="LogNormalDistributionModel.23" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:PRLR" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:PRLR" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="clockRatePrior.c:SNCAIP" name="distribution" x="@strictClockRate.c:SNCAIP">
+                    <LogNormal id="LogNormalDistributionModel.14" meanInRealSpace="true" name="distr">
+                        <parameter id="clockRatePriorMean.s:SNCAIP" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="clockRatePriorStdev.s:SNCAIP" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="tipPopSizesPrior.Species" name="distribution" x="@tipPopSizes.Species">
+                    <Gamma id="Gamma.0" beta="@lwcrPopScale.Species" name="distr">
+                        <parameter id="tipPopShape.Species" spec="parameter.RealParameter" estimate="false" lower="0.0" name="alpha">4.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="topPopSizesPrior.Species" name="distribution" x="@topPopSizes.Species">
+                    <Gamma id="Gamma.1" beta="@lwcrPopScale.Species" name="distr">
+                        <parameter id="topPopShape.Species" spec="parameter.RealParameter" estimate="false" lower="0.0" name="alpha">2.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="uclnBranchRatesStdevPrior.c:A12D" name="distribution" x="@uclnBranchRatesStdev.c:A12D">
+                    <Exponential id="Exponential.14" name="distr">
+                        <parameter id="uclnBranchRatesStdevPriorMean.s:A12D" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean">1.0</parameter>
+                    </Exponential>
+                </prior>
+                <prior id="uclnBranchRatesStdevPrior.c:KIF24" name="distribution" x="@uclnBranchRatesStdev.c:KIF24">
+                    <Exponential id="Exponential.16" name="distr">
+                        <parameter id="uclnBranchRatesStdevPriorMean.s:KIF24" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean">1.0</parameter>
+                    </Exponential>
+                </prior>
+                <prior id="uclnBranchRatesStdevPrior.c:mtDNA" name="distribution" x="@uclnBranchRatesStdev.c:mtDNA">
+                    <Exponential id="Exponential.15" name="distr">
+                        <parameter id="uclnBranchRatesStdevPriorMean.s:mtDNA" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mean">1.0</parameter>
+                    </Exponential>
+                </prior>
+                <prior id="uclnClockRatePrior.c:A12D" name="distribution" x="@uclnClockRate.c:A12D">
+                    <LogNormal id="LogNormalDistributionModel.28" meanInRealSpace="true" name="distr">
+                        <parameter id="uclnClockRatePriorMean.s:A12D" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="uclnClockRatePriorStdev.s:A12D" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="uclnClockRatePrior.c:KIF24" name="distribution" x="@uclnClockRate.c:KIF24">
+                    <LogNormal id="LogNormalDistributionModel.30" meanInRealSpace="true" name="distr">
+                        <parameter id="uclnClockRatePriorMean.s:KIF24" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="uclnClockRatePriorStdev.s:KIF24" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="uclnClockRatePrior.c:mtDNA" name="distribution" x="@uclnClockRate.c:mtDNA">
+                    <LogNormal id="LogNormalDistributionModel.29" meanInRealSpace="true" name="distr">
+                        <parameter id="uclnClockRatePriorMean.s:mtDNA" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M">1.0</parameter>
+                        <parameter id="uclnClockRatePriorStdev.s:mtDNA" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S">1.0</parameter>
+                    </LogNormal>
+                </prior>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution">
+                <distribution id="treeLikelihood.SNCAIP" spec="TreeLikelihood" data="@SNCAIP" tree="@Tree.t:SNCAIP">
+                    <siteModel id="BEASTModelTest.s:SNCAIP" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:SNCAIP" hasInvariantSites="@hasInvariableSites.s:SNCAIP" proportionInvariant="@BMT_ProportionInvariable.s:SNCAIP" shape="@BMT_gammaShape.s:SNCAIP" substModel="@RevJump.s:SNCAIP">
+                        <parameter id="BMT_mutationRate.s:SNCAIP" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:SNCAIP" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:SNCAIP"/>
+                </distribution>
+                <distribution id="treeLikelihood.PNN" spec="TreeLikelihood" data="@PNN" tree="@Tree.t:PNN">
+                    <siteModel id="BEASTModelTest.s:PNN" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:PNN" hasInvariantSites="@hasInvariableSites.s:PNN" proportionInvariant="@BMT_ProportionInvariable.s:PNN" shape="@BMT_gammaShape.s:PNN" substModel="@RevJump.s:PNN">
+                        <parameter id="BMT_mutationRate.s:PNN" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:PNN" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:PNN"/>
+                </distribution>
+                <distribution id="treeLikelihood.MXRA5" spec="TreeLikelihood" data="@MXRA5" tree="@Tree.t:MXRA5">
+                    <siteModel id="BEASTModelTest.s:MXRA5" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:MXRA5" hasInvariantSites="@hasInvariableSites.s:MXRA5" proportionInvariant="@BMT_ProportionInvariable.s:MXRA5" shape="@BMT_gammaShape.s:MXRA5" substModel="@RevJump.s:MXRA5">
+                        <parameter id="BMT_mutationRate.s:MXRA5" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:MXRA5" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:MXRA5"/>
+                </distribution>
+                <distribution id="treeLikelihood.EXPH5" spec="TreeLikelihood" data="@EXPH5" tree="@Tree.t:EXPH5">
+                    <siteModel id="BEASTModelTest.s:EXPH5" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:EXPH5" hasInvariantSites="@hasInvariableSites.s:EXPH5" proportionInvariant="@BMT_ProportionInvariable.s:EXPH5" shape="@BMT_gammaShape.s:EXPH5" substModel="@RevJump.s:EXPH5">
+                        <parameter id="BMT_mutationRate.s:EXPH5" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:EXPH5" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:EXPH5"/>
+                </distribution>
+                <distribution id="treeLikelihood.DMXL" spec="TreeLikelihood" data="@DMXL" tree="@Tree.t:DMXL">
+                    <siteModel id="BEASTModelTest.s:DMXL" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:DMXL" hasInvariantSites="@hasInvariableSites.s:DMXL" proportionInvariant="@BMT_ProportionInvariable.s:DMXL" shape="@BMT_gammaShape.s:DMXL" substModel="@RevJump.s:DMXL">
+                        <parameter id="BMT_mutationRate.s:DMXL" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:DMXL" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:DMXL"/>
+                </distribution>
+                <distribution id="treeLikelihood.CMOS" spec="TreeLikelihood" data="@CMOS" tree="@Tree.t:CMOS">
+                    <siteModel id="BEASTModelTest.s:CMOS" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:CMOS" hasInvariantSites="@hasInvariableSites.s:CMOS" proportionInvariant="@BMT_ProportionInvariable.s:CMOS" shape="@BMT_gammaShape.s:CMOS" substModel="@RevJump.s:CMOS">
+                        <parameter id="BMT_mutationRate.s:CMOS" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:CMOS" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:CMOS"/>
+                </distribution>
+                <distribution id="treeLikelihood.A12D" spec="TreeLikelihood" data="@A12D" tree="@Tree.t:A12D">
+                    <siteModel id="BEASTModelTest.s:A12D" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:A12D" hasInvariantSites="@hasInvariableSites.s:A12D" proportionInvariant="@BMT_ProportionInvariable.s:A12D" shape="@BMT_gammaShape.s:A12D" substModel="@RevJump.s:A12D">
+                        <parameter id="BMT_mutationRate.s:A12D" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="GeneTreeUCLN.c:A12D" spec="starbeast2.UncorrelatedRates" clock.rate="@uclnClockRate.c:A12D" rates="@uclnBranchRates.c:A12D" stdev="@uclnBranchRatesStdev.c:A12D" tree="@Tree.t:A12D"/>
+                </distribution>
+                <distribution id="treeLikelihood.A9C" spec="TreeLikelihood" data="@A9C" tree="@Tree.t:A9C">
+                    <siteModel id="BEASTModelTest.s:A9C" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:A9C" hasInvariantSites="@hasInvariableSites.s:A9C" proportionInvariant="@BMT_ProportionInvariable.s:A9C" shape="@BMT_gammaShape.s:A9C" substModel="@RevJump.s:A9C">
+                        <parameter id="BMT_mutationRate.s:A9C" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:A9C" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:A9C"/>
+                </distribution>
+                <distribution id="treeLikelihood.A4B" spec="TreeLikelihood" data="@A4B" tree="@Tree.t:A4B">
+                    <siteModel id="BEASTModelTest.s:A4B" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:A4B" hasInvariantSites="@hasInvariableSites.s:A4B" proportionInvariant="@BMT_ProportionInvariable.s:A4B" shape="@BMT_gammaShape.s:A4B" substModel="@RevJump.s:A4B">
+                        <parameter id="BMT_mutationRate.s:A4B" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:A4B" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:A4B"/>
+                </distribution>
+                <distribution id="treeLikelihood.PRLR" spec="TreeLikelihood" data="@PRLR" tree="@Tree.t:PRLR">
+                    <siteModel id="BEASTModelTest.s:PRLR" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:PRLR" hasInvariantSites="@hasInvariableSites.s:PRLR" proportionInvariant="@BMT_ProportionInvariable.s:PRLR" shape="@BMT_gammaShape.s:PRLR" substModel="@RevJump.s:PRLR">
+                        <parameter id="BMT_mutationRate.s:PRLR" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:PRLR" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@strictClockRate.c:PRLR"/>
+                </distribution>
+                <distribution id="treeLikelihood.mtDNA" spec="TreeLikelihood" data="@mtDNA" tree="@Tree.t:mtDNA">
+                    <siteModel id="BEASTModelTest.s:mtDNA" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:mtDNA" hasInvariantSites="@hasInvariableSites.s:mtDNA" proportionInvariant="@BMT_ProportionInvariable.s:mtDNA" shape="@BMT_gammaShape.s:mtDNA" substModel="@RevJump.s:mtDNA">
+                        <parameter id="BMT_mutationRate.s:mtDNA" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="GeneTreeUCLN.c:mtDNA" spec="starbeast2.UncorrelatedRates" clock.rate="@uclnClockRate.c:mtDNA" rates="@uclnBranchRates.c:mtDNA" stdev="@uclnBranchRatesStdev.c:mtDNA" tree="@Tree.t:mtDNA"/>
+                </distribution>
+                <distribution id="treeLikelihood.KIF24" spec="TreeLikelihood" data="@KIF24" tree="@Tree.t:KIF24">
+                    <siteModel id="BEASTModelTest.s:KIF24" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:KIF24" hasInvariantSites="@hasInvariableSites.s:KIF24" proportionInvariant="@BMT_ProportionInvariable.s:KIF24" shape="@BMT_gammaShape.s:KIF24" substModel="@RevJump.s:KIF24">
+                        <parameter id="BMT_mutationRate.s:KIF24" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="GeneTreeUCLN.c:KIF24" spec="starbeast2.UncorrelatedRates" clock.rate="@uclnClockRate.c:KIF24" rates="@uclnBranchRates.c:KIF24" stdev="@uclnBranchRatesStdev.c:KIF24" tree="@Tree.t:KIF24"/>
+                </distribution>
+                <distribution id="treeLikelihood.DNAH3" spec="TreeLikelihood" data="@DNAH3" tree="@Tree.t:DNAH3">
+                    <siteModel id="BEASTModelTest.s:DNAH3" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:DNAH3" hasInvariantSites="@hasInvariableSites.s:DNAH3" proportionInvariant="@BMT_ProportionInvariable.s:DNAH3" shape="@BMT_gammaShape.s:DNAH3" substModel="@RevJump.s:DNAH3">
+                        <parameter id="BMT_mutationRate.s:DNAH3" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="GeneTreeRLC.c:DNAH3" spec="starbeast2.RandomLocalRates" clock.rate="@rlcClockRate.c:DNAH3" rates="@rlcBranchRates.c:DNAH3" tree="@Tree.t:DNAH3">
+                        <indicators id="indicators.c:DNAH3" spec="parameter.BooleanParameter" dimension="166" estimate="false">false</indicators>
+                    </branchRateModel>
+                </distribution>
+                <distribution id="treeLikelihood.A1D" spec="TreeLikelihood" data="@A1D" tree="@Tree.t:A1D">
+                    <siteModel id="BEASTModelTest.s:A1D" spec="bmodeltest.evolution.sitemodel.BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:A1D" hasInvariantSites="@hasInvariableSites.s:A1D" proportionInvariant="@BMT_ProportionInvariable.s:A1D" shape="@BMT_gammaShape.s:A1D" substModel="@RevJump.s:A1D">
+                        <parameter id="BMT_mutationRate.s:A1D" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    </siteModel>
+                    <branchRateModel id="GeneTreeRLC.c:A1D" spec="starbeast2.RandomLocalRates" clock.rate="@rlcClockRate.c:A1D" rates="@rlcBranchRates.c:A1D" tree="@Tree.t:A1D">
+                        <indicators id="indicators.c:A1D" spec="parameter.BooleanParameter" dimension="82" estimate="false">false</indicators>
+                    </branchRateModel>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="Reheight.t:Species" spec="starbeast2.NodeReheight2" taxonset="@taxonsuperset" tree="@Tree.t:Species" weight="30.0">
+            <geneTree idref="geneTree.t:SNCAIP"/>
+            <geneTree idref="geneTree.t:PNN"/>
+            <geneTree idref="geneTree.t:A4B"/>
+            <geneTree idref="geneTree.t:CMOS"/>
+            <geneTree idref="geneTree.t:DMXL"/>
+            <geneTree idref="geneTree.t:EXPH5"/>
+            <geneTree idref="geneTree.t:PRLR"/>
+            <geneTree idref="geneTree.t:mtDNA"/>
+            <geneTree idref="geneTree.t:MXRA5"/>
+            <geneTree idref="geneTree.t:A9C"/>
+            <geneTree idref="geneTree.t:A1D"/>
+            <geneTree idref="geneTree.t:KIF24"/>
+            <geneTree idref="geneTree.t:A12D"/>
+            <geneTree idref="geneTree.t:DNAH3"/>
+        </operator>
+        <operator id="coordinatedUniform.t:Species" spec="starbeast2.CoordinatedUniform" speciesTree="@Tree.t:Species" weight="15.0">
+            <geneTree idref="Tree.t:SNCAIP"/>
+            <geneTree idref="Tree.t:PNN"/>
+            <geneTree idref="Tree.t:A4B"/>
+            <geneTree idref="Tree.t:CMOS"/>
+            <geneTree idref="Tree.t:DMXL"/>
+            <geneTree idref="Tree.t:EXPH5"/>
+            <geneTree idref="Tree.t:PRLR"/>
+            <geneTree idref="Tree.t:mtDNA"/>
+            <geneTree idref="Tree.t:MXRA5"/>
+            <geneTree idref="Tree.t:A9C"/>
+            <geneTree idref="Tree.t:A1D"/>
+            <geneTree idref="Tree.t:KIF24"/>
+            <geneTree idref="Tree.t:A12D"/>
+            <geneTree idref="Tree.t:DNAH3"/>
+        </operator>
+        <operator id="coordinatedExponential.t:Species" spec="starbeast2.CoordinatedExponential" speciesTree="@Tree.t:Species" weight="15.0">
+            <geneTree idref="Tree.t:SNCAIP"/>
+            <geneTree idref="Tree.t:PNN"/>
+            <geneTree idref="Tree.t:A4B"/>
+            <geneTree idref="Tree.t:CMOS"/>
+            <geneTree idref="Tree.t:DMXL"/>
+            <geneTree idref="Tree.t:EXPH5"/>
+            <geneTree idref="Tree.t:PRLR"/>
+            <geneTree idref="Tree.t:mtDNA"/>
+            <geneTree idref="Tree.t:MXRA5"/>
+            <geneTree idref="Tree.t:A9C"/>
+            <geneTree idref="Tree.t:A1D"/>
+            <geneTree idref="Tree.t:KIF24"/>
+            <geneTree idref="Tree.t:A12D"/>
+            <geneTree idref="Tree.t:DNAH3"/>
+        </operator>
+        <operator id="SubtreeSlide.t:Species" spec="SubtreeSlide" size="0.002" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="WilsonBalding.t:Species" spec="WilsonBalding" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="Wide.t:Species" spec="Exchange" isNarrow="false" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="Narrow.t:Species" spec="Exchange" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="UniformOperator.t:Species" spec="Uniform" tree="@Tree.t:Species" weight="15.0"/>
+        <operator id="TreeRootScaler.t:Species" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:Species" weight="3.0"/>
+        <operator id="TreeScaler.t:Species" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:Species" weight="3.0"/>
+        <operator id="speciationRateScale.t:Species" spec="ScaleOperator" parameter="@speciationRate.t:Species" scaleFactor="0.5" weight="1.0"/>
+        <operator id="updownAll:Species" spec="operator.UpDownOperator" scaleFactor="0.75" weight="6.0">
+            <up idref="speciationRate.t:Species"/>
+            <up idref="strictClockRate.c:SNCAIP"/>
+            <up idref="strictClockRate.c:PNN"/>
+            <up idref="strictClockRate.c:MXRA5"/>
+            <up idref="strictClockRate.c:EXPH5"/>
+            <up idref="strictClockRate.c:DMXL"/>
+            <up idref="strictClockRate.c:CMOS"/>
+            <up idref="uclnClockRate.c:A12D"/>
+            <up idref="strictClockRate.c:A9C"/>
+            <up idref="strictClockRate.c:A4B"/>
+            <up idref="strictClockRate.c:PRLR"/>
+            <up idref="uclnClockRate.c:mtDNA"/>
+            <up idref="uclnClockRate.c:KIF24"/>
+            <up idref="rlcClockRate.c:DNAH3"/>
+            <up idref="rlcClockRate.c:A1D"/>
+            <down idref="Tree.t:Species"/>
+            <down idref="Tree.t:SNCAIP"/>
+            <down idref="Tree.t:PNN"/>
+            <down idref="Tree.t:A4B"/>
+            <down idref="Tree.t:CMOS"/>
+            <down idref="Tree.t:DMXL"/>
+            <down idref="Tree.t:EXPH5"/>
+            <down idref="Tree.t:PRLR"/>
+            <down idref="Tree.t:mtDNA"/>
+            <down idref="Tree.t:MXRA5"/>
+            <down idref="Tree.t:A9C"/>
+            <down idref="Tree.t:A1D"/>
+            <down idref="Tree.t:KIF24"/>
+            <down idref="Tree.t:A12D"/>
+            <down idref="Tree.t:DNAH3"/>
+            <down idref="tipPopSizes.Species"/>
+            <down idref="topPopSizes.Species"/>
+            <down idref="lwcrPopScale.Species"/>
+        </operator>
+        <operator id="clockUpDownOperator.c:SNCAIP" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:SNCAIP"/>
+        </operator>
+        <operator id="TreeScaler.t:SNCAIP" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:SNCAIP" weight="3.0"/>
+        <operator id="TreeRootScaler.t:SNCAIP" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:SNCAIP" weight="3.0"/>
+        <operator id="UniformOperator.t:SNCAIP" spec="Uniform" tree="@Tree.t:SNCAIP" weight="15.0"/>
+        <operator id="SubtreeSlide.t:SNCAIP" spec="SubtreeSlide" size="0.002" tree="@Tree.t:SNCAIP" weight="15.0"/>
+        <operator id="Narrow.t:SNCAIP" spec="Exchange" tree="@Tree.t:SNCAIP" weight="15.0"/>
+        <operator id="Wide.t:SNCAIP" spec="Exchange" isNarrow="false" tree="@Tree.t:SNCAIP" weight="15.0"/>
+        <operator id="WilsonBalding.t:SNCAIP" spec="WilsonBalding" tree="@Tree.t:SNCAIP" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:PNN" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:PNN"/>
+        </operator>
+        <operator id="TreeScaler.t:PNN" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:PNN" weight="3.0"/>
+        <operator id="TreeRootScaler.t:PNN" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:PNN" weight="3.0"/>
+        <operator id="UniformOperator.t:PNN" spec="Uniform" tree="@Tree.t:PNN" weight="15.0"/>
+        <operator id="SubtreeSlide.t:PNN" spec="SubtreeSlide" size="0.002" tree="@Tree.t:PNN" weight="15.0"/>
+        <operator id="Narrow.t:PNN" spec="Exchange" tree="@Tree.t:PNN" weight="15.0"/>
+        <operator id="Wide.t:PNN" spec="Exchange" isNarrow="false" tree="@Tree.t:PNN" weight="15.0"/>
+        <operator id="WilsonBalding.t:PNN" spec="WilsonBalding" tree="@Tree.t:PNN" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:A4B" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:A4B"/>
+        </operator>
+        <operator id="TreeScaler.t:A4B" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:A4B" weight="3.0"/>
+        <operator id="TreeRootScaler.t:A4B" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:A4B" weight="3.0"/>
+        <operator id="UniformOperator.t:A4B" spec="Uniform" tree="@Tree.t:A4B" weight="15.0"/>
+        <operator id="SubtreeSlide.t:A4B" spec="SubtreeSlide" size="0.002" tree="@Tree.t:A4B" weight="15.0"/>
+        <operator id="Narrow.t:A4B" spec="Exchange" tree="@Tree.t:A4B" weight="15.0"/>
+        <operator id="Wide.t:A4B" spec="Exchange" isNarrow="false" tree="@Tree.t:A4B" weight="15.0"/>
+        <operator id="WilsonBalding.t:A4B" spec="WilsonBalding" tree="@Tree.t:A4B" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:CMOS" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:CMOS"/>
+        </operator>
+        <operator id="TreeScaler.t:CMOS" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:CMOS" weight="3.0"/>
+        <operator id="TreeRootScaler.t:CMOS" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:CMOS" weight="3.0"/>
+        <operator id="UniformOperator.t:CMOS" spec="Uniform" tree="@Tree.t:CMOS" weight="15.0"/>
+        <operator id="SubtreeSlide.t:CMOS" spec="SubtreeSlide" size="0.002" tree="@Tree.t:CMOS" weight="15.0"/>
+        <operator id="Narrow.t:CMOS" spec="Exchange" tree="@Tree.t:CMOS" weight="15.0"/>
+        <operator id="Wide.t:CMOS" spec="Exchange" isNarrow="false" tree="@Tree.t:CMOS" weight="15.0"/>
+        <operator id="WilsonBalding.t:CMOS" spec="WilsonBalding" tree="@Tree.t:CMOS" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:DMXL" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:DMXL"/>
+        </operator>
+        <operator id="TreeScaler.t:DMXL" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:DMXL" weight="3.0"/>
+        <operator id="TreeRootScaler.t:DMXL" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:DMXL" weight="3.0"/>
+        <operator id="UniformOperator.t:DMXL" spec="Uniform" tree="@Tree.t:DMXL" weight="15.0"/>
+        <operator id="SubtreeSlide.t:DMXL" spec="SubtreeSlide" size="0.002" tree="@Tree.t:DMXL" weight="15.0"/>
+        <operator id="Narrow.t:DMXL" spec="Exchange" tree="@Tree.t:DMXL" weight="15.0"/>
+        <operator id="Wide.t:DMXL" spec="Exchange" isNarrow="false" tree="@Tree.t:DMXL" weight="15.0"/>
+        <operator id="WilsonBalding.t:DMXL" spec="WilsonBalding" tree="@Tree.t:DMXL" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:EXPH5" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:EXPH5"/>
+        </operator>
+        <operator id="TreeScaler.t:EXPH5" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:EXPH5" weight="3.0"/>
+        <operator id="TreeRootScaler.t:EXPH5" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:EXPH5" weight="3.0"/>
+        <operator id="UniformOperator.t:EXPH5" spec="Uniform" tree="@Tree.t:EXPH5" weight="15.0"/>
+        <operator id="SubtreeSlide.t:EXPH5" spec="SubtreeSlide" size="0.002" tree="@Tree.t:EXPH5" weight="15.0"/>
+        <operator id="Narrow.t:EXPH5" spec="Exchange" tree="@Tree.t:EXPH5" weight="15.0"/>
+        <operator id="Wide.t:EXPH5" spec="Exchange" isNarrow="false" tree="@Tree.t:EXPH5" weight="15.0"/>
+        <operator id="WilsonBalding.t:EXPH5" spec="WilsonBalding" tree="@Tree.t:EXPH5" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:PRLR" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:PRLR"/>
+        </operator>
+        <operator id="TreeScaler.t:PRLR" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:PRLR" weight="3.0"/>
+        <operator id="TreeRootScaler.t:PRLR" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:PRLR" weight="3.0"/>
+        <operator id="UniformOperator.t:PRLR" spec="Uniform" tree="@Tree.t:PRLR" weight="15.0"/>
+        <operator id="SubtreeSlide.t:PRLR" spec="SubtreeSlide" size="0.002" tree="@Tree.t:PRLR" weight="15.0"/>
+        <operator id="Narrow.t:PRLR" spec="Exchange" tree="@Tree.t:PRLR" weight="15.0"/>
+        <operator id="Wide.t:PRLR" spec="Exchange" isNarrow="false" tree="@Tree.t:PRLR" weight="15.0"/>
+        <operator id="WilsonBalding.t:PRLR" spec="WilsonBalding" tree="@Tree.t:PRLR" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:mtDNA" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:mtDNA"/>
+        </operator>
+        <operator id="TreeScaler.t:mtDNA" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:mtDNA" weight="3.0"/>
+        <operator id="TreeRootScaler.t:mtDNA" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:mtDNA" weight="3.0"/>
+        <operator id="UniformOperator.t:mtDNA" spec="Uniform" tree="@Tree.t:mtDNA" weight="15.0"/>
+        <operator id="SubtreeSlide.t:mtDNA" spec="SubtreeSlide" size="0.002" tree="@Tree.t:mtDNA" weight="15.0"/>
+        <operator id="Narrow.t:mtDNA" spec="Exchange" tree="@Tree.t:mtDNA" weight="15.0"/>
+        <operator id="Wide.t:mtDNA" spec="Exchange" isNarrow="false" tree="@Tree.t:mtDNA" weight="15.0"/>
+        <operator id="WilsonBalding.t:mtDNA" spec="WilsonBalding" tree="@Tree.t:mtDNA" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:MXRA5" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:MXRA5"/>
+        </operator>
+        <operator id="TreeScaler.t:MXRA5" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:MXRA5" weight="3.0"/>
+        <operator id="TreeRootScaler.t:MXRA5" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:MXRA5" weight="3.0"/>
+        <operator id="UniformOperator.t:MXRA5" spec="Uniform" tree="@Tree.t:MXRA5" weight="15.0"/>
+        <operator id="SubtreeSlide.t:MXRA5" spec="SubtreeSlide" size="0.002" tree="@Tree.t:MXRA5" weight="15.0"/>
+        <operator id="Narrow.t:MXRA5" spec="Exchange" tree="@Tree.t:MXRA5" weight="15.0"/>
+        <operator id="Wide.t:MXRA5" spec="Exchange" isNarrow="false" tree="@Tree.t:MXRA5" weight="15.0"/>
+        <operator id="WilsonBalding.t:MXRA5" spec="WilsonBalding" tree="@Tree.t:MXRA5" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:A9C" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:A9C"/>
+        </operator>
+        <operator id="TreeScaler.t:A9C" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:A9C" weight="3.0"/>
+        <operator id="TreeRootScaler.t:A9C" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:A9C" weight="3.0"/>
+        <operator id="UniformOperator.t:A9C" spec="Uniform" tree="@Tree.t:A9C" weight="15.0"/>
+        <operator id="SubtreeSlide.t:A9C" spec="SubtreeSlide" size="0.002" tree="@Tree.t:A9C" weight="15.0"/>
+        <operator id="Narrow.t:A9C" spec="Exchange" tree="@Tree.t:A9C" weight="15.0"/>
+        <operator id="Wide.t:A9C" spec="Exchange" isNarrow="false" tree="@Tree.t:A9C" weight="15.0"/>
+        <operator id="WilsonBalding.t:A9C" spec="WilsonBalding" tree="@Tree.t:A9C" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:A1D" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:A1D"/>
+        </operator>
+        <operator id="TreeScaler.t:A1D" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:A1D" weight="3.0"/>
+        <operator id="TreeRootScaler.t:A1D" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:A1D" weight="3.0"/>
+        <operator id="UniformOperator.t:A1D" spec="Uniform" tree="@Tree.t:A1D" weight="15.0"/>
+        <operator id="SubtreeSlide.t:A1D" spec="SubtreeSlide" size="0.002" tree="@Tree.t:A1D" weight="15.0"/>
+        <operator id="Narrow.t:A1D" spec="Exchange" tree="@Tree.t:A1D" weight="15.0"/>
+        <operator id="Wide.t:A1D" spec="Exchange" isNarrow="false" tree="@Tree.t:A1D" weight="15.0"/>
+        <operator id="WilsonBalding.t:A1D" spec="WilsonBalding" tree="@Tree.t:A1D" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:KIF24" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:KIF24"/>
+        </operator>
+        <operator id="TreeScaler.t:KIF24" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:KIF24" weight="3.0"/>
+        <operator id="TreeRootScaler.t:KIF24" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:KIF24" weight="3.0"/>
+        <operator id="UniformOperator.t:KIF24" spec="Uniform" tree="@Tree.t:KIF24" weight="15.0"/>
+        <operator id="SubtreeSlide.t:KIF24" spec="SubtreeSlide" size="0.002" tree="@Tree.t:KIF24" weight="15.0"/>
+        <operator id="Narrow.t:KIF24" spec="Exchange" tree="@Tree.t:KIF24" weight="15.0"/>
+        <operator id="Wide.t:KIF24" spec="Exchange" isNarrow="false" tree="@Tree.t:KIF24" weight="15.0"/>
+        <operator id="WilsonBalding.t:KIF24" spec="WilsonBalding" tree="@Tree.t:KIF24" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:A12D" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:A12D"/>
+        </operator>
+        <operator id="TreeScaler.t:A12D" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:A12D" weight="3.0"/>
+        <operator id="TreeRootScaler.t:A12D" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:A12D" weight="3.0"/>
+        <operator id="UniformOperator.t:A12D" spec="Uniform" tree="@Tree.t:A12D" weight="15.0"/>
+        <operator id="SubtreeSlide.t:A12D" spec="SubtreeSlide" size="0.002" tree="@Tree.t:A12D" weight="15.0"/>
+        <operator id="Narrow.t:A12D" spec="Exchange" tree="@Tree.t:A12D" weight="15.0"/>
+        <operator id="Wide.t:A12D" spec="Exchange" isNarrow="false" tree="@Tree.t:A12D" weight="15.0"/>
+        <operator id="WilsonBalding.t:A12D" spec="WilsonBalding" tree="@Tree.t:A12D" weight="15.0"/>
+        <operator id="clockUpDownOperator.c:DNAH3" spec="operator.UpDownOperator" scaleFactor="0.95" weight="3.0">
+            <down idref="Tree.t:DNAH3"/>
+        </operator>
+        <operator id="TreeScaler.t:DNAH3" spec="ScaleOperator" scaleFactor="0.95" tree="@Tree.t:DNAH3" weight="3.0"/>
+        <operator id="TreeRootScaler.t:DNAH3" spec="ScaleOperator" rootOnly="true" scaleFactor="0.7" tree="@Tree.t:DNAH3" weight="3.0"/>
+        <operator id="UniformOperator.t:DNAH3" spec="Uniform" tree="@Tree.t:DNAH3" weight="15.0"/>
+        <operator id="SubtreeSlide.t:DNAH3" spec="SubtreeSlide" size="0.002" tree="@Tree.t:DNAH3" weight="15.0"/>
+        <operator id="Narrow.t:DNAH3" spec="Exchange" tree="@Tree.t:DNAH3" weight="15.0"/>
+        <operator id="Wide.t:DNAH3" spec="Exchange" isNarrow="false" tree="@Tree.t:DNAH3" weight="15.0"/>
+        <operator id="WilsonBalding.t:DNAH3" spec="WilsonBalding" tree="@Tree.t:DNAH3" weight="15.0"/>
+        <operator id="tipPopSizesSwap.Species" spec="starbeast2.RealCycle" k="2" optimise="false" parameter="@tipPopSizes.Species" weight="3.0"/>
+        <operator id="topPopSizesSwap.Species" spec="starbeast2.RealCycle" k="2" optimise="false" parameter="@topPopSizes.Species" weight="3.0"/>
+        <operator id="tipPopSizesScale.Species" spec="ScaleOperator" parameter="@tipPopSizes.Species" scaleFactor="0.5" weight="3.0"/>
+        <operator id="topPopSizesScale.Species" spec="ScaleOperator" parameter="@topPopSizes.Species" scaleFactor="0.5" weight="3.0"/>
+        <operator id="lwcrPopScaleScale.Species" spec="ScaleOperator" parameter="@lwcrPopScale.Species" weight="1.0"/>
+        <operator id="BMT_ModelTestOperator.s:SNCAIP" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:SNCAIP" rates="@BMT_Rates.s:SNCAIP" substModel="@RevJump.s:SNCAIP" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:SNCAIP" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:SNCAIP" rates="@BMT_Rates.s:SNCAIP" substModel="@RevJump.s:SNCAIP" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:SNCAIP" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:SNCAIP" parameter="@BMT_gammaShape.s:SNCAIP" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:SNCAIP" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:SNCAIP" parameter="@BMT_ProportionInvariable.s:SNCAIP" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:SNCAIP" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:SNCAIP" rates="@BMT_gammaShape.s:SNCAIP" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:SNCAIP" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:SNCAIP" rates="@BMT_ProportionInvariable.s:SNCAIP" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:SNCAIP" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:SNCAIP" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:PNN" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:PNN" rates="@BMT_Rates.s:PNN" substModel="@RevJump.s:PNN" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:PNN" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:PNN" rates="@BMT_Rates.s:PNN" substModel="@RevJump.s:PNN" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:PNN" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:PNN" parameter="@BMT_gammaShape.s:PNN" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:PNN" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:PNN" parameter="@BMT_ProportionInvariable.s:PNN" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:PNN" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:PNN" rates="@BMT_gammaShape.s:PNN" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:PNN" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:PNN" rates="@BMT_ProportionInvariable.s:PNN" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:PNN" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:PNN" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:MXRA5" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:MXRA5" rates="@BMT_Rates.s:MXRA5" substModel="@RevJump.s:MXRA5" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:MXRA5" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:MXRA5" rates="@BMT_Rates.s:MXRA5" substModel="@RevJump.s:MXRA5" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:MXRA5" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:MXRA5" parameter="@BMT_gammaShape.s:MXRA5" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:MXRA5" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:MXRA5" parameter="@BMT_ProportionInvariable.s:MXRA5" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:MXRA5" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:MXRA5" rates="@BMT_gammaShape.s:MXRA5" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:MXRA5" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:MXRA5" rates="@BMT_ProportionInvariable.s:MXRA5" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:MXRA5" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:MXRA5" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:EXPH5" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:EXPH5" rates="@BMT_Rates.s:EXPH5" substModel="@RevJump.s:EXPH5" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:EXPH5" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:EXPH5" rates="@BMT_Rates.s:EXPH5" substModel="@RevJump.s:EXPH5" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:EXPH5" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:EXPH5" parameter="@BMT_gammaShape.s:EXPH5" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:EXPH5" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:EXPH5" parameter="@BMT_ProportionInvariable.s:EXPH5" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:EXPH5" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:EXPH5" rates="@BMT_gammaShape.s:EXPH5" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:EXPH5" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:EXPH5" rates="@BMT_ProportionInvariable.s:EXPH5" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:EXPH5" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:EXPH5" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:DMXL" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:DMXL" rates="@BMT_Rates.s:DMXL" substModel="@RevJump.s:DMXL" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:DMXL" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:DMXL" rates="@BMT_Rates.s:DMXL" substModel="@RevJump.s:DMXL" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:DMXL" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:DMXL" parameter="@BMT_gammaShape.s:DMXL" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:DMXL" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:DMXL" parameter="@BMT_ProportionInvariable.s:DMXL" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:DMXL" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:DMXL" rates="@BMT_gammaShape.s:DMXL" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:DMXL" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:DMXL" rates="@BMT_ProportionInvariable.s:DMXL" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:DMXL" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:DMXL" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:CMOS" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:CMOS" rates="@BMT_Rates.s:CMOS" substModel="@RevJump.s:CMOS" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:CMOS" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:CMOS" rates="@BMT_Rates.s:CMOS" substModel="@RevJump.s:CMOS" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:CMOS" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:CMOS" parameter="@BMT_gammaShape.s:CMOS" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:CMOS" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:CMOS" parameter="@BMT_ProportionInvariable.s:CMOS" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:CMOS" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:CMOS" rates="@BMT_gammaShape.s:CMOS" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:CMOS" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:CMOS" rates="@BMT_ProportionInvariable.s:CMOS" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:CMOS" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:CMOS" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:A12D" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:A12D" rates="@BMT_Rates.s:A12D" substModel="@RevJump.s:A12D" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:A12D" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:A12D" rates="@BMT_Rates.s:A12D" substModel="@RevJump.s:A12D" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:A12D" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:A12D" parameter="@BMT_gammaShape.s:A12D" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:A12D" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:A12D" parameter="@BMT_ProportionInvariable.s:A12D" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:A12D" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:A12D" rates="@BMT_gammaShape.s:A12D" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:A12D" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:A12D" rates="@BMT_ProportionInvariable.s:A12D" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:A12D" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:A12D" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:A9C" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:A9C" rates="@BMT_Rates.s:A9C" substModel="@RevJump.s:A9C" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:A9C" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:A9C" rates="@BMT_Rates.s:A9C" substModel="@RevJump.s:A9C" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:A9C" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:A9C" parameter="@BMT_gammaShape.s:A9C" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:A9C" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:A9C" parameter="@BMT_ProportionInvariable.s:A9C" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:A9C" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:A9C" rates="@BMT_gammaShape.s:A9C" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:A9C" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:A9C" rates="@BMT_ProportionInvariable.s:A9C" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:A9C" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:A9C" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:A4B" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:A4B" rates="@BMT_Rates.s:A4B" substModel="@RevJump.s:A4B" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:A4B" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:A4B" rates="@BMT_Rates.s:A4B" substModel="@RevJump.s:A4B" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:A4B" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:A4B" parameter="@BMT_gammaShape.s:A4B" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:A4B" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:A4B" parameter="@BMT_ProportionInvariable.s:A4B" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:A4B" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:A4B" rates="@BMT_gammaShape.s:A4B" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:A4B" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:A4B" rates="@BMT_ProportionInvariable.s:A4B" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:A4B" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:A4B" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:PRLR" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:PRLR" rates="@BMT_Rates.s:PRLR" substModel="@RevJump.s:PRLR" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:PRLR" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:PRLR" rates="@BMT_Rates.s:PRLR" substModel="@RevJump.s:PRLR" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:PRLR" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:PRLR" parameter="@BMT_gammaShape.s:PRLR" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:PRLR" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:PRLR" parameter="@BMT_ProportionInvariable.s:PRLR" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:PRLR" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:PRLR" rates="@BMT_gammaShape.s:PRLR" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:PRLR" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:PRLR" rates="@BMT_ProportionInvariable.s:PRLR" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:PRLR" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:PRLR" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:mtDNA" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:mtDNA" rates="@BMT_Rates.s:mtDNA" substModel="@RevJump.s:mtDNA" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:mtDNA" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:mtDNA" rates="@BMT_Rates.s:mtDNA" substModel="@RevJump.s:mtDNA" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:mtDNA" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:mtDNA" parameter="@BMT_gammaShape.s:mtDNA" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:mtDNA" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:mtDNA" parameter="@BMT_ProportionInvariable.s:mtDNA" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:mtDNA" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:mtDNA" rates="@BMT_gammaShape.s:mtDNA" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:mtDNA" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:mtDNA" rates="@BMT_ProportionInvariable.s:mtDNA" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:mtDNA" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:mtDNA" weight="0.1"/>
+        <operator id="BMT_FrequenciesExchanger.s:mtDNA" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.01" weight="0.2">
+            <parameter idref="BMT_frequencies.s:mtDNA"/>
+        </operator>
+        <operator id="BMT_ModelTestOperator.s:KIF24" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:KIF24" rates="@BMT_Rates.s:KIF24" substModel="@RevJump.s:KIF24" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:KIF24" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:KIF24" rates="@BMT_Rates.s:KIF24" substModel="@RevJump.s:KIF24" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:KIF24" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:KIF24" parameter="@BMT_gammaShape.s:KIF24" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:KIF24" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:KIF24" parameter="@BMT_ProportionInvariable.s:KIF24" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:KIF24" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:KIF24" rates="@BMT_gammaShape.s:KIF24" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:KIF24" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:KIF24" rates="@BMT_ProportionInvariable.s:KIF24" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:KIF24" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:KIF24" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:DNAH3" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:DNAH3" rates="@BMT_Rates.s:DNAH3" substModel="@RevJump.s:DNAH3" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:DNAH3" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:DNAH3" rates="@BMT_Rates.s:DNAH3" substModel="@RevJump.s:DNAH3" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:DNAH3" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:DNAH3" parameter="@BMT_gammaShape.s:DNAH3" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:DNAH3" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:DNAH3" parameter="@BMT_ProportionInvariable.s:DNAH3" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:DNAH3" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:DNAH3" rates="@BMT_gammaShape.s:DNAH3" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:DNAH3" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:DNAH3" rates="@BMT_ProportionInvariable.s:DNAH3" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:DNAH3" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:DNAH3" weight="0.1"/>
+        <operator id="BMT_ModelTestOperator.s:A1D" spec="bmodeltest.evolution.operators.BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:A1D" rates="@BMT_Rates.s:A1D" substModel="@RevJump.s:A1D" weight="1.0"/>
+        <operator id="BMT_Ratescaler.s:A1D" spec="bmodeltest.evolution.operators.BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:A1D" rates="@BMT_Rates.s:A1D" substModel="@RevJump.s:A1D" weight="1.0"/>
+        <operator id="BMT_gammaShapeScaler.s:A1D" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasGammaRates.s:A1D" parameter="@BMT_gammaShape.s:A1D" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_ProportionInvariableScaler.s:A1D" spec="bmodeltest.evolution.operators.BMTScaleOperator" count="@hasInvariableSites.s:A1D" parameter="@BMT_ProportionInvariable.s:A1D" scaleFactor="0.5" weight="0.5"/>
+        <operator id="BMT_hasGammaRatesFlipper.s:A1D" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasGammaRates.s:A1D" rates="@BMT_gammaShape.s:A1D" weight="0.1"/>
+        <operator id="BMT_hasInvariableSitesFlipper.s:A1D" spec="bmodeltest.evolution.operators.BMTBirthDeathOperator" count="@hasInvariableSites.s:A1D" rates="@BMT_ProportionInvariable.s:A1D" weight="0.1"/>
+        <operator id="BMT_FreqsFlipOperator.s:A1D" spec="operator.BitFlipOperator" parameter="@hasEqualFreqs.s:A1D" weight="0.1"/>
+        <operator id="clockRateScaler.c:SNCAIP" spec="ScaleOperator" parameter="@strictClockRate.c:SNCAIP" scaleFactor="0.5" weight="3.0"/>
+        <operator id="clockRateScaler.c:PNN" spec="ScaleOperator" parameter="@strictClockRate.c:PNN" scaleFactor="0.5" weight="3.0"/>
+        <operator id="clockRateScaler.c:MXRA5" spec="ScaleOperator" parameter="@strictClockRate.c:MXRA5" scaleFactor="0.5" weight="3.0"/>
+        <operator id="clockRateScaler.c:EXPH5" spec="ScaleOperator" parameter="@strictClockRate.c:EXPH5" scaleFactor="0.5" weight="3.0"/>
+        <operator id="clockRateScaler.c:DMXL" spec="ScaleOperator" parameter="@strictClockRate.c:DMXL" scaleFactor="0.5" weight="3.0"/>
+        <operator id="clockRateScaler.c:CMOS" spec="ScaleOperator" parameter="@strictClockRate.c:CMOS" scaleFactor="0.5" weight="3.0"/>
+        <operator id="uclnBranchRatesCycle.c:A12D" spec="starbeast2.DiscreteRateCycle" k="2" optimise="false" treeRates="@uclnBranchRates.c:A12D" weight="9.0"/>
+        <operator id="uclnBranchRatesUniform.c:A12D" spec="starbeast2.DiscreteRateUniform" optimise="false" treeRates="@uclnBranchRates.c:A12D" weight="9.0"/>
+        <operator id="uclnClockRateScaler.c:A12D" spec="ScaleOperator" parameter="@uclnClockRate.c:A12D" scaleFactor="0.5" weight="3.0"/>
+        <operator id="uclnBranchRatesStdevScaler.c:A12D" spec="ScaleOperator" parameter="@uclnBranchRatesStdev.c:A12D" weight="3.0"/>
+        <operator id="clockRateScaler.c:A9C" spec="ScaleOperator" parameter="@strictClockRate.c:A9C" scaleFactor="0.5" weight="3.0"/>
+        <operator id="clockRateScaler.c:A4B" spec="ScaleOperator" parameter="@strictClockRate.c:A4B" scaleFactor="0.5" weight="3.0"/>
+        <operator id="clockRateScaler.c:PRLR" spec="ScaleOperator" parameter="@strictClockRate.c:PRLR" scaleFactor="0.5" weight="3.0"/>
+        <operator id="uclnBranchRatesCycle.c:mtDNA" spec="starbeast2.DiscreteRateCycle" k="2" optimise="false" treeRates="@uclnBranchRates.c:mtDNA" weight="9.0"/>
+        <operator id="uclnBranchRatesUniform.c:mtDNA" spec="starbeast2.DiscreteRateUniform" optimise="false" treeRates="@uclnBranchRates.c:mtDNA" weight="9.0"/>
+        <operator id="uclnBranchRatesStdevScaler.c:mtDNA" spec="ScaleOperator" parameter="@uclnBranchRatesStdev.c:mtDNA" weight="3.0"/>
+        <operator id="uclnClockRateScaler.c:mtDNA" spec="ScaleOperator" parameter="@uclnClockRate.c:mtDNA" scaleFactor="0.5" weight="3.0"/>
+        <operator id="uclnBranchRatesCycle.c:KIF24" spec="starbeast2.DiscreteRateCycle" k="2" optimise="false" treeRates="@uclnBranchRates.c:KIF24" weight="9.0"/>
+        <operator id="uclnBranchRatesUniform.c:KIF24" spec="starbeast2.DiscreteRateUniform" optimise="false" treeRates="@uclnBranchRates.c:KIF24" weight="9.0"/>
+        <operator id="uclnBranchRatesStdevScaler.c:KIF24" spec="ScaleOperator" parameter="@uclnBranchRatesStdev.c:KIF24" weight="3.0"/>
+        <operator id="uclnClockRateScaler.c:KIF24" spec="ScaleOperator" parameter="@uclnClockRate.c:KIF24" scaleFactor="0.5" weight="3.0"/>
+        <operator id="rlcBranchRateScaler.c:DNAH3" spec="ScaleOperator" parameter="@rlcBranchRates.c:DNAH3" weight="18.0"/>
+        <operator id="rlcClockRateScaler.c:DNAH3" spec="ScaleOperator" parameter="@rlcClockRate.c:DNAH3" scaleFactor="0.5" weight="3.0"/>
+        <operator id="rlcBranchRateScaler.c:A1D" spec="ScaleOperator" parameter="@rlcBranchRates.c:A1D" weight="18.0"/>
+        <operator id="rlcClockRateScaler.c:A1D" spec="ScaleOperator" parameter="@rlcClockRate.c:A1D" scaleFactor="0.5" weight="3.0"/>
+        <logger id="tracelog" spec="Logger" fileName="starbeast.log" logEvery="50000" model="@posterior" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="speciescoalescent"/>
+            <log idref="speciationRate.t:Species"/>
+            <log idref="YuleModel.t:Species"/>
+            <log id="TreeHeight.Species" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:Species"/>
+            <log id="TreeLength.Species" spec="starbeast2.TreeLengthLogger" tree="@Tree.t:Species"/>
+            <log idref="treeLikelihood.SNCAIP"/>
+            <log id="TreeHeight.t:SNCAIP" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:SNCAIP"/>
+            <log idref="treeLikelihood.PNN"/>
+            <log id="TreeHeight.t:PNN" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:PNN"/>
+            <log idref="treeLikelihood.A4B"/>
+            <log id="TreeHeight.t:A4B" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:A4B"/>
+            <log idref="treeLikelihood.CMOS"/>
+            <log id="TreeHeight.t:CMOS" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:CMOS"/>
+            <log idref="treeLikelihood.DMXL"/>
+            <log id="TreeHeight.t:DMXL" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:DMXL"/>
+            <log idref="treeLikelihood.EXPH5"/>
+            <log id="TreeHeight.t:EXPH5" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:EXPH5"/>
+            <log idref="treeLikelihood.PRLR"/>
+            <log id="TreeHeight.t:PRLR" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:PRLR"/>
+            <log idref="treeLikelihood.mtDNA"/>
+            <log id="TreeHeight.t:mtDNA" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:mtDNA"/>
+            <log idref="treeLikelihood.MXRA5"/>
+            <log id="TreeHeight.t:MXRA5" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:MXRA5"/>
+            <log idref="treeLikelihood.A9C"/>
+            <log id="TreeHeight.t:A9C" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:A9C"/>
+            <log idref="treeLikelihood.A1D"/>
+            <log id="TreeHeight.t:A1D" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:A1D"/>
+            <log idref="treeLikelihood.KIF24"/>
+            <log id="TreeHeight.t:KIF24" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:KIF24"/>
+            <log idref="treeLikelihood.A12D"/>
+            <log id="TreeHeight.t:A12D" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:A12D"/>
+            <log idref="treeLikelihood.DNAH3"/>
+            <log id="TreeHeight.t:DNAH3" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:DNAH3"/>
+            <log idref="lwcrPopScale.Species"/>
+            <log idref="RevJump.s:SNCAIP"/>
+            <log idref="BMT_ModelIndicator.s:SNCAIP"/>
+            <log idref="BMT_gammaShape.s:SNCAIP"/>
+            <log idref="BMT_ProportionInvariable.s:SNCAIP"/>
+            <log idref="hasGammaRates.s:SNCAIP"/>
+            <log idref="hasInvariableSites.s:SNCAIP"/>
+            <log id="ActivePropInvariable.s:SNCAIP" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:SNCAIP" parameter="@BMT_ProportionInvariable.s:SNCAIP"/>
+            <log id="ActiveGammaShape.s:SNCAIP" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:SNCAIP" parameter="@BMT_gammaShape.s:SNCAIP"/>
+            <log idref="hasEqualFreqs.s:SNCAIP"/>
+            <log idref="RevJump.s:PNN"/>
+            <log idref="BMT_ModelIndicator.s:PNN"/>
+            <log idref="BMT_gammaShape.s:PNN"/>
+            <log idref="BMT_ProportionInvariable.s:PNN"/>
+            <log idref="hasGammaRates.s:PNN"/>
+            <log idref="hasInvariableSites.s:PNN"/>
+            <log id="ActivePropInvariable.s:PNN" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:PNN" parameter="@BMT_ProportionInvariable.s:PNN"/>
+            <log id="ActiveGammaShape.s:PNN" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:PNN" parameter="@BMT_gammaShape.s:PNN"/>
+            <log idref="hasEqualFreqs.s:PNN"/>
+            <log idref="RevJump.s:MXRA5"/>
+            <log idref="BMT_ModelIndicator.s:MXRA5"/>
+            <log idref="BMT_gammaShape.s:MXRA5"/>
+            <log idref="BMT_ProportionInvariable.s:MXRA5"/>
+            <log idref="hasGammaRates.s:MXRA5"/>
+            <log idref="hasInvariableSites.s:MXRA5"/>
+            <log id="ActivePropInvariable.s:MXRA5" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:MXRA5" parameter="@BMT_ProportionInvariable.s:MXRA5"/>
+            <log id="ActiveGammaShape.s:MXRA5" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:MXRA5" parameter="@BMT_gammaShape.s:MXRA5"/>
+            <log idref="hasEqualFreqs.s:MXRA5"/>
+            <log idref="RevJump.s:EXPH5"/>
+            <log idref="BMT_ModelIndicator.s:EXPH5"/>
+            <log idref="BMT_gammaShape.s:EXPH5"/>
+            <log idref="BMT_ProportionInvariable.s:EXPH5"/>
+            <log idref="hasGammaRates.s:EXPH5"/>
+            <log idref="hasInvariableSites.s:EXPH5"/>
+            <log id="ActivePropInvariable.s:EXPH5" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:EXPH5" parameter="@BMT_ProportionInvariable.s:EXPH5"/>
+            <log id="ActiveGammaShape.s:EXPH5" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:EXPH5" parameter="@BMT_gammaShape.s:EXPH5"/>
+            <log idref="hasEqualFreqs.s:EXPH5"/>
+            <log idref="RevJump.s:DMXL"/>
+            <log idref="BMT_ModelIndicator.s:DMXL"/>
+            <log idref="BMT_gammaShape.s:DMXL"/>
+            <log idref="BMT_ProportionInvariable.s:DMXL"/>
+            <log idref="hasGammaRates.s:DMXL"/>
+            <log idref="hasInvariableSites.s:DMXL"/>
+            <log id="ActivePropInvariable.s:DMXL" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:DMXL" parameter="@BMT_ProportionInvariable.s:DMXL"/>
+            <log id="ActiveGammaShape.s:DMXL" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:DMXL" parameter="@BMT_gammaShape.s:DMXL"/>
+            <log idref="hasEqualFreqs.s:DMXL"/>
+            <log idref="RevJump.s:CMOS"/>
+            <log idref="BMT_ModelIndicator.s:CMOS"/>
+            <log idref="BMT_gammaShape.s:CMOS"/>
+            <log idref="BMT_ProportionInvariable.s:CMOS"/>
+            <log idref="hasGammaRates.s:CMOS"/>
+            <log idref="hasInvariableSites.s:CMOS"/>
+            <log id="ActivePropInvariable.s:CMOS" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:CMOS" parameter="@BMT_ProportionInvariable.s:CMOS"/>
+            <log id="ActiveGammaShape.s:CMOS" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:CMOS" parameter="@BMT_gammaShape.s:CMOS"/>
+            <log idref="hasEqualFreqs.s:CMOS"/>
+            <log idref="RevJump.s:A12D"/>
+            <log idref="BMT_ModelIndicator.s:A12D"/>
+            <log idref="BMT_gammaShape.s:A12D"/>
+            <log idref="BMT_ProportionInvariable.s:A12D"/>
+            <log idref="hasGammaRates.s:A12D"/>
+            <log idref="hasInvariableSites.s:A12D"/>
+            <log id="ActivePropInvariable.s:A12D" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:A12D" parameter="@BMT_ProportionInvariable.s:A12D"/>
+            <log id="ActiveGammaShape.s:A12D" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:A12D" parameter="@BMT_gammaShape.s:A12D"/>
+            <log idref="hasEqualFreqs.s:A12D"/>
+            <log idref="RevJump.s:A9C"/>
+            <log idref="BMT_ModelIndicator.s:A9C"/>
+            <log idref="BMT_gammaShape.s:A9C"/>
+            <log idref="BMT_ProportionInvariable.s:A9C"/>
+            <log idref="hasGammaRates.s:A9C"/>
+            <log idref="hasInvariableSites.s:A9C"/>
+            <log id="ActivePropInvariable.s:A9C" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:A9C" parameter="@BMT_ProportionInvariable.s:A9C"/>
+            <log id="ActiveGammaShape.s:A9C" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:A9C" parameter="@BMT_gammaShape.s:A9C"/>
+            <log idref="hasEqualFreqs.s:A9C"/>
+            <log idref="RevJump.s:A4B"/>
+            <log idref="BMT_ModelIndicator.s:A4B"/>
+            <log idref="BMT_gammaShape.s:A4B"/>
+            <log idref="BMT_ProportionInvariable.s:A4B"/>
+            <log idref="hasGammaRates.s:A4B"/>
+            <log idref="hasInvariableSites.s:A4B"/>
+            <log id="ActivePropInvariable.s:A4B" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:A4B" parameter="@BMT_ProportionInvariable.s:A4B"/>
+            <log id="ActiveGammaShape.s:A4B" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:A4B" parameter="@BMT_gammaShape.s:A4B"/>
+            <log idref="hasEqualFreqs.s:A4B"/>
+            <log idref="RevJump.s:PRLR"/>
+            <log idref="BMT_ModelIndicator.s:PRLR"/>
+            <log idref="BMT_gammaShape.s:PRLR"/>
+            <log idref="BMT_ProportionInvariable.s:PRLR"/>
+            <log idref="hasGammaRates.s:PRLR"/>
+            <log idref="hasInvariableSites.s:PRLR"/>
+            <log id="ActivePropInvariable.s:PRLR" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:PRLR" parameter="@BMT_ProportionInvariable.s:PRLR"/>
+            <log id="ActiveGammaShape.s:PRLR" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:PRLR" parameter="@BMT_gammaShape.s:PRLR"/>
+            <log idref="hasEqualFreqs.s:PRLR"/>
+            <log idref="RevJump.s:mtDNA"/>
+            <log idref="BMT_ModelIndicator.s:mtDNA"/>
+            <log idref="BMT_gammaShape.s:mtDNA"/>
+            <log idref="BMT_ProportionInvariable.s:mtDNA"/>
+            <log idref="hasGammaRates.s:mtDNA"/>
+            <log idref="hasInvariableSites.s:mtDNA"/>
+            <log id="ActivePropInvariable.s:mtDNA" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:mtDNA" parameter="@BMT_ProportionInvariable.s:mtDNA"/>
+            <log id="ActiveGammaShape.s:mtDNA" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:mtDNA" parameter="@BMT_gammaShape.s:mtDNA"/>
+            <log idref="hasEqualFreqs.s:mtDNA"/>
+            <log idref="BMT_frequencies.s:mtDNA"/>
+            <log idref="RevJump.s:KIF24"/>
+            <log idref="BMT_ModelIndicator.s:KIF24"/>
+            <log idref="BMT_gammaShape.s:KIF24"/>
+            <log idref="BMT_ProportionInvariable.s:KIF24"/>
+            <log idref="hasGammaRates.s:KIF24"/>
+            <log idref="hasInvariableSites.s:KIF24"/>
+            <log id="ActivePropInvariable.s:KIF24" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:KIF24" parameter="@BMT_ProportionInvariable.s:KIF24"/>
+            <log id="ActiveGammaShape.s:KIF24" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:KIF24" parameter="@BMT_gammaShape.s:KIF24"/>
+            <log idref="hasEqualFreqs.s:KIF24"/>
+            <log idref="RevJump.s:DNAH3"/>
+            <log idref="BMT_ModelIndicator.s:DNAH3"/>
+            <log idref="BMT_gammaShape.s:DNAH3"/>
+            <log idref="BMT_ProportionInvariable.s:DNAH3"/>
+            <log idref="hasGammaRates.s:DNAH3"/>
+            <log idref="hasInvariableSites.s:DNAH3"/>
+            <log id="ActivePropInvariable.s:DNAH3" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:DNAH3" parameter="@BMT_ProportionInvariable.s:DNAH3"/>
+            <log id="ActiveGammaShape.s:DNAH3" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:DNAH3" parameter="@BMT_gammaShape.s:DNAH3"/>
+            <log idref="hasEqualFreqs.s:DNAH3"/>
+            <log idref="RevJump.s:A1D"/>
+            <log idref="BMT_ModelIndicator.s:A1D"/>
+            <log idref="BMT_gammaShape.s:A1D"/>
+            <log idref="BMT_ProportionInvariable.s:A1D"/>
+            <log idref="hasGammaRates.s:A1D"/>
+            <log idref="hasInvariableSites.s:A1D"/>
+            <log id="ActivePropInvariable.s:A1D" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasInvariableSites.s:A1D" parameter="@BMT_ProportionInvariable.s:A1D"/>
+            <log id="ActiveGammaShape.s:A1D" spec="bmodeltest.evolution.substitutionmodel.ActiveLogger" mask="@hasGammaRates.s:A1D" parameter="@BMT_gammaShape.s:A1D"/>
+            <log idref="hasEqualFreqs.s:A1D"/>
+            <log idref="strictClockRate.c:SNCAIP"/>
+            <log idref="strictClockRate.c:PNN"/>
+            <log idref="strictClockRate.c:MXRA5"/>
+            <log idref="strictClockRate.c:EXPH5"/>
+            <log idref="strictClockRate.c:DMXL"/>
+            <log idref="strictClockRate.c:CMOS"/>
+            <log idref="uclnClockRate.c:A12D"/>
+            <log idref="uclnBranchRatesStdev.c:A12D"/>
+            <log idref="strictClockRate.c:A9C"/>
+            <log idref="strictClockRate.c:A4B"/>
+            <log idref="strictClockRate.c:PRLR"/>
+            <log idref="uclnBranchRatesStdev.c:mtDNA"/>
+            <log idref="uclnClockRate.c:mtDNA"/>
+            <log idref="uclnBranchRatesStdev.c:KIF24"/>
+            <log idref="uclnClockRate.c:KIF24"/>
+            <log idref="rlcClockRate.c:DNAH3"/>
+            <log idref="rlcClockRate.c:A1D"/>
+        </logger>
+        <logger id="speciesTreeLogger" spec="Logger" fileName="species.trees" logEvery="50000" mode="tree">
+            <log id="SpeciesTreeLoggerX" spec="starbeast2.SpeciesTreeLogger" populationmodel="@lwcrPopModel.Species" speciesTree="@Tree.t:Species"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="50000" model="@posterior">
+            <log idref="posterior"/>
+            <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:SNCAIP" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:SNCAIP" substitutions="true" branchratemodel="@StrictClock.c:SNCAIP" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:SNCAIP"/>
+        </logger>
+        <logger id="treelog.t:PNN" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:PNN" substitutions="true" branchratemodel="@StrictClock.c:PNN" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:PNN"/>
+        </logger>
+        <logger id="treelog.t:A4B" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:A4B" substitutions="true" branchratemodel="@StrictClock.c:A4B" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:A4B"/>
+        </logger>
+        <logger id="treelog.t:CMOS" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:CMOS" substitutions="true" branchratemodel="@StrictClock.c:CMOS" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:CMOS"/>
+        </logger>
+        <logger id="treelog.t:DMXL" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:DMXL" substitutions="true" branchratemodel="@StrictClock.c:DMXL" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:DMXL"/>
+        </logger>
+        <logger id="treelog.t:EXPH5" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:EXPH5" substitutions="true" branchratemodel="@StrictClock.c:EXPH5" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:EXPH5"/>
+        </logger>
+        <logger id="treelog.t:PRLR" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:PRLR" substitutions="true" branchratemodel="@StrictClock.c:PRLR" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:PRLR"/>
+        </logger>
+        <logger id="treelog.t:mtDNA" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:mtDNA" substitutions="true" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@GeneTreeUCLN.c:mtDNA" tree="@Tree.t:mtDNA"/>
+        </logger>
+        <logger id="treelog.t:MXRA5" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:MXRA5" substitutions="true" branchratemodel="@StrictClock.c:MXRA5" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:MXRA5"/>
+        </logger>
+        <logger id="treelog.t:A9C" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:A9C"  substitutions="true" branchratemodel="@StrictClock.c:A9C" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:A9C"/>
+        </logger>
+        <logger id="treelog.t:A1D" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:A1D" substitutions="true" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@GeneTreeRLC.c:A1D" tree="@Tree.t:A1D"/>
+        </logger>
+        <logger id="treelog.t:KIF24" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:KIF24" substitutions="true" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@GeneTreeUCLN.c:KIF24" tree="@Tree.t:KIF24"/>
+        </logger>
+        <logger id="treelog.t:A12D" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:A12D" substitutions="true" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@GeneTreeUCLN.c:A12D" tree="@Tree.t:A12D"/>
+        </logger>
+        <logger id="treelog.t:DNAH3" spec="Logger" fileName="$(tree).trees" logEvery="50000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:DNAH3" substitutions="true" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@GeneTreeRLC.c:DNAH3" tree="@Tree.t:DNAH3"/>
+        </logger>
+        <operatorschedule id="operatorSchedule" spec="OperatorSchedule">
+            <subschedule id="operatorSubschedule" spec="OperatorSchedule" operatorPattern="^.*Species$" weight="20.0" weightIsPercentage="true"/>
+        </operatorschedule>
+    </run>
+
+</beast>
