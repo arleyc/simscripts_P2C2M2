@@ -1,5 +1,5 @@
 # simscripts_P2C2M2
-Scripts used for simulating sequence data from species trees and networks to evaluate P2C2M2 performance:
+Scripts used for simulating sequence data from species trees and networks to evaluate P2C2M2 (https://github.com/arleyc/P2C2M2) performance (see Villamil et al. 2025, doi:10.1093/sysbio/syaf048)
 
 <br>**gtreestree.jl**: Julia script to simulate gene trees from an input species tree with branch lengths in coalescent units using the PhyloCoalSimulations package.
 
